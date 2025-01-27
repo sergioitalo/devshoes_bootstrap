@@ -19,19 +19,74 @@ header ul li a {
     margin-bottom: 30px;
 }
 
-
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
     #sobre img {
-        margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 16px;
+
+    }
+
+    #produtos article {
+        margin-bottom: 30px;
+    }
+
+    #produtos article img {
+        height: 150px;
+        border-radius: 3px;
+        margin-bottom: 8px;
+    }
+
+    .contentProduto {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #sobre img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #produtos article {
+        margin-bottom: 30px;
+    }
+
+    #produtos img {
+        height: 200px;
+        margin-bottom: 8px;
+        border-radius: 3px;
+    }
+
+    .contentProduto {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #sobre img {
         width: 100%;
     }
 
     #produtos img {
         height: 150px;
         margin-bottom: 8px;
+        border-radius: 3px;
     }
 
+    #produtos article {
+        margin-bottom: 30px;
+    }
+
+    #produtos article h3 {
+        font-size: 18px;
+    }
+
+    .contentProduto {
+        width: 100%;
+        text-align: center;
+    }
 
 }
+
