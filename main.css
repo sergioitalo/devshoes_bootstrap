@@ -14,7 +14,9 @@ header ul li a {
 }
 
 #sobre h2,
-#produtos h2 {
+#produtos h2,
+#contato h2,
+#contato h4 {
     color: #A300DF;
     margin-bottom: 30px;
 }
@@ -28,6 +30,7 @@ header ul li a {
 
     #produtos article {
         margin-bottom: 30px;
+        width: 300px;
     }
 
     #produtos article img {
@@ -40,6 +43,32 @@ header ul li a {
         width: 100%;
         text-align: center;
     }
+
+    #contato .textArea {
+        height: 120px;
+    }
+
+    #contato img {
+        height: 24px;
+    }
+
+    #contato ul {
+        padding: 0;
+    }
+
+    #contato ul li {
+        list-style: none;
+        margin-left: 16px;
+    }
+
+    .divSociais {
+        margin-top: 30px;
+    }
+
+    .divEndereco {
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -50,6 +79,7 @@ header ul li a {
 
     #produtos article {
         margin-bottom: 30px;
+    
     }
 
     #produtos img {
@@ -62,6 +92,38 @@ header ul li a {
         width: 100%;
         text-align: center;
     }
+
+    #contato form {
+        width: 600px;
+    }
+
+    #contato .textArea {
+        height: 120px;
+    }
+
+    #contato img {
+        height: 24px;
+    }
+
+    #contato ul {
+        padding: 0;
+    }
+
+    #contato ul li {
+        list-style: none;
+        margin-left: 16px;
+    }
+
+    .divSociais {
+        margin-top: 30px;
+    }
+
+    .divEndereco {
+        margin-top: 30px;
+    }
+
+
+    
 }
 
 @media screen and (min-width: 1024px) {
@@ -77,6 +139,7 @@ header ul li a {
 
     #produtos article {
         margin-bottom: 30px;
+        width: 300px;
     }
 
     #produtos article h3 {
@@ -87,6 +150,33 @@ header ul li a {
         width: 100%;
         text-align: center;
     }
+
+    #contato form {
+        width: 100%;
+    }
+
+    #contato img {
+        height: 24px;
+    }
+
+    #contato ul {
+        padding: 0;
+    }
+
+    #contato ul li {
+        list-style: none;
+        margin-left: 16px;
+    }
+
+    #contato h4 {
+        padding-top: 0;
+    }
+
+    .divEndereco {
+        padding-top: 0;
+    }
+
+
 
 }
 
