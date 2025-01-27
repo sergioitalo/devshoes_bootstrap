@@ -1,0 +1,37 @@
+header {
+    background-color: #A300DF;
+    color: #fff;
+}
+
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sobre h2,
+#produtos h2 {
+    color: #A300DF;
+    margin-bottom: 30px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    #sobre img {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #produtos img {
+        height: 150px;
+        margin-bottom: 8px;
+    }
+
+
+}
