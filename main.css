@@ -16,7 +16,8 @@ header ul li a {
 #sobre h2,
 #produtos h2,
 #contato h2,
-#contato h4 {
+#contato h4,
+#duvidas h2 {
     color: #A300DF;
     margin-bottom: 30px;
 }
@@ -176,6 +177,9 @@ header ul li a {
         padding-top: 0;
     }
 
+    .accordion {
+        width: 100%;
+    }
 
 
 }
